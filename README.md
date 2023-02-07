@@ -65,3 +65,6 @@ python gr.py --data [data name] --algo [damf, damf1]
 
 
 ### Baseline(LocalAction)
+```
+python LocalAction.py --data [data name] --type ["train", "full"]
+```
