@@ -45,7 +45,11 @@ python nc.py
 
 
 ```
-python DAMF1.py
+python DAMF1.py --data [data name] --type ["train", full]
+```
+
+```
+python DAMF.py --data [data name] --type ["train", full]
 ```
 
 ### Evaluate
