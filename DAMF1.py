@@ -134,7 +134,7 @@ if __name__ == "__main__":
     print(args)
 
     data_type = "train" if args.type=="train" else "full"
-    input_file_name = f"/home/dhr/NRP/data/{data_name}/{data_type}.mat" 
+    input_file_name = f"data/{data_name}/{data_type}.mat" 
     print(f"input_file_name: {input_file_name}")
     A = utils.load_adjacency_matrix(input_file_name)
     model = StreamNE(A[:start, :start], dim=dim//2, max_rows=A.shape[0])
